@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 // .env 
 require('dotenv').config()
 
-const port = 4000;
+const port =process.env.PORT||4000;
 // mongo db
 const projectName = "Burj-Al-Arab";
 const dbName = "Burj-Al-Arab";
